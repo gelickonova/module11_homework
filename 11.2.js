@@ -19,7 +19,7 @@ function isPrime(number) {
 
 console.log(isPrime(1))
 console.log(isPrime(0))
-console.log(isPrime(100))
 console.log(isPrime(359))
 console.log(isPrime('vbnm'))
 console.log(isPrime(1000))
+console.log(isPrime(1001))

@@ -4,7 +4,7 @@
 
 function sum (firstNum){
     return function sum2 (secondNum){
-        return firstNum+secondNum;
+        return firstNum + secondNum;
     }
 }
 

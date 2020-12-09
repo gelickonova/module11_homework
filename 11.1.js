@@ -8,9 +8,8 @@
 
 function howManyEvenOddAndZeroValuesInArray(array) {
     let zeros = 0;
-    //нечетные - odd
-    let odd = 0;
-    let even = 0;
+    let odd = 0;  //нечётные
+    let even = 0; //чётные
     array.forEach(function(item){
         if (typeof item === 'number' && !isNaN(item))
             if (item === 0) zeros++;
